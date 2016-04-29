@@ -28,10 +28,39 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/button"
-        android:layout_alignStart="@+id/imageView"
-        android:layout_alignBottom="@+id/imageView"
-        android:layout_alignEnd="@+id/imageView"
         android:background="@null"
+        android:layout_alignStart="@+id/imageView"
+        android:layout_alignEnd="@+id/imageView"
         android:layout_marginBottom="10dp"
-        />
+        android:layout_centerVertical="true" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/button"
+        android:layout_alignStart="@+id/imageView"
+        android:layout_alignEnd="@+id/imageView"
+        android:layout_marginTop="170dp"
+        android:layout_marginBottom="10dp">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/editText"
+            android:layout_marginBottom="10dp"
+            android:hint="Login"
+            android:gravity="center"
+            android:background="@null"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/editText2"
+            android:layout_gravity="center_horizontal"
+            android:hint="Password"
+            android:gravity="center"
+            android:background="@null"/>
+    </LinearLayout>
+
 </RelativeLayout>

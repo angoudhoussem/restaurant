@@ -1,0 +1,55 @@
+package com.itgate.restaurant.model;
+
+
+public class Utilisateur {
+
+
+    private Long idUtilisateur;
+    private String login;
+    private String password;
+    private String imageUtilisateur;
+    private  Role role;
+
+    public Utilisateur() {
+    }
+
+    public Role getRole() {
+        return role;
+    }
+
+    public void setRole(Role role) {
+        this.role = role;
+    }
+
+    public Long getIdUtilisateur() {
+        return idUtilisateur;
+    }
+
+    public void setIdUtilisateur(Long idUtilisateur) {
+        this.idUtilisateur = idUtilisateur;
+    }
+
+    public String getLogin() {
+        return login;
+    }
+
+    public void setLogin(String login) {
+        this.login = login;
+    }
+
+    public String getPassword() {
+        return password;
+    }
+
+    public void setPassword(String password) {
+        this.password = password;
+    }
+
+    public String getImageUtilisateur() {
+        return imageUtilisateur;
+    }
+
+    public void setImageUtilisateur(String imageUtilisateur) {
+        this.imageUtilisateur = imageUtilisateur;
+    }
+}
