@@ -49,6 +49,8 @@ public class AuthentificationUser extends AppCompatActivity {
                            if(utilisateur.getRole().getNomRole().equals("serveur")) {
 
                               Intent i=new Intent(getApplicationContext(), MainActivity.class);
+                              // i.putExtr
+                               Utilisateur utilisateur1=(Utilisateur)i.getSerializableExtra("serveur");
                                startActivity(i);
                            } else {
 

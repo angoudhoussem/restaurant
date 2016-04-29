@@ -1,7 +1,11 @@
 package com.itgate.restaurant.model;
 
 
-public class Utilisateur {
+import android.os.Parcelable;
+
+import java.io.Serializable;
+
+public class Utilisateur implements Serializable {
 
 
     private Long idUtilisateur;
