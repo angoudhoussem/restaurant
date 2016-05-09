@@ -6,5 +6,5 @@ package com.itgate.restaurant.util;
 public class Config {
 
 
-      public static String  base_url="http://192.168.1.12:8080/restaurant";
+      public static String  base_url="http://192.168.1.3:8080/restaurant";
 }

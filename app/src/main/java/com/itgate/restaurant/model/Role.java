@@ -9,8 +9,8 @@ public class Role {
 
 
     private Long idRole;
-    private String nomRole;
 
+    private String nomRole;
 
     public Long getIdRole() {
         return idRole;

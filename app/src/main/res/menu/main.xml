@@ -1,9 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
-<menu xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto">
-    <item
-        android:id="@+id/action_settings"
-        android:orderInCategory="100"
-        android:title="@string/action_settings"
-        app:showAsAction="never" />
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/commande"
+
+        android:title="@string/aboutOption"></item>
+
+    <item android:id="@+id/mescommandes" android:title="Mes Commondes"></item>
+
+    <item android:id="@+id/exit" android:title="@string/exitOption" android:alphabeticShortcut="x">
+
+    </item>
+
 </menu>

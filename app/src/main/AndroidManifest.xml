@@ -25,7 +25,14 @@
         <activity
             android:name=".activite.grillardin.MenuGrillardin"
             android:label="@string/title_activity_menu_grillardin"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".activite.grillardin.ListCommande" />
+        <activity
+            android:name=".activite.serveur.DetailCommandeActivity"
+            android:label="@string/title_activity_detail_commande"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".activite.serveur.GridViewActivity" />
+        <activity android:name=".activite.serveur.PlatActivity"></activity>
     </application>
 
 </manifest>
